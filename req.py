@@ -138,8 +138,8 @@
 
 
 
-try:
-    x = int("abc")  # This will raise a ValueError
-except ValueError as e:
-    print("Caught a ValueError!")
-    raise  # Re-raises the same exception
+# try:
+#     x = int("abc")  # This will raise a ValueError
+# except ValueError as e:
+#     print("Caught a ValueError!")
+#     raise  # Re-raises the same exception
